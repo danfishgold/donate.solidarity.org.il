@@ -1,6 +1,6 @@
-new Siema({
+const carousel = new Siema({
   selector: '.carousel',
-  duration: 200,
+  duration: 500,
   easing: 'ease-out',
   perPage: 1,
   startIndex: 0,
@@ -8,3 +8,7 @@ new Siema({
   loop: true,
   rtl: true
 });
+
+setInterval(() => {
+  carousel.next()
+}, 4000)

@@ -162,12 +162,16 @@ h2 {
 }
 
 .carousel {
-  width: 1200px;
+  width: 700px;
   height: 400px;
   background: white;
   border: 0.75rem #E6007E solid;
   border-radius: 1.5rem;
   margin: 2rem auto;
+}
+
+.carousel img {
+  object-fit: cover;
 }
 
 
