@@ -1,14 +1,15 @@
-@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+/* @import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css); */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
 
 body {
-  font-family: "Open Sans Hebrew", sans-serif;
+  font-family: "Heebo", "Open Sans Hebrew", sans-serif;
   margin: 0;
 }
 
 header {
   background: #E6007E;
   color: white;
-  margin-bottom: 20rem;
+  margin-bottom: 15rem;
      position: relative;
     padding-bottom: 6rem;
 }
@@ -107,7 +108,7 @@ h2 {
 }
 
 .social-share {
-  width: 6.5rem;
+  width: 9.5rem;
   margin: 3rem auto 0;
   display: flex;
   flex-direction: row;
@@ -115,32 +116,43 @@ h2 {
 }
 
 .social-share img {
-  width: 3rem;
-  height: 3rem;
+  width: 4rem;
+  height: 4rem;
 }
 
 .stats {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
-  grid-gap: 1rem;
+  grid-gap: 2rem;
 }
 
 .stat {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .stat img {
-  width: 8rem;
-  height: 8rem;
+  width: 12rem;
+  height: 12rem;
+}
+
+.stat .stat-number {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.stat .stat-description {
+  margin-top: 0;
 }
 
 .carousel {
-  width: 80%;
+  width: 1200px;
   height: 400px;
   background: white;
   border: 0.75rem #E6007E solid;
