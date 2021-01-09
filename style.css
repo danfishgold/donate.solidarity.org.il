@@ -1,7 +1,7 @@
-/* CSS files add styling rules to your content */
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans Hebrew', sans-serif;;
 }
 
 h1 {
