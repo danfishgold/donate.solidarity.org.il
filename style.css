@@ -136,7 +136,7 @@ h2 {
   justify-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  grid-gap: 2rem;
+  grid-gap: 5rem;
 }
 
 .stat {
@@ -148,8 +148,7 @@ h2 {
 }
 
 .stat img {
-  width: 12rem;
-  height: 12rem;
+  width: 100%;
 }
 
 .stat .stat-number {
@@ -162,17 +161,21 @@ h2 {
 }
 
 .carousel {
-  width: 700px;
-  height: 400px;
+  width: 900px;
+  height: 600px;
   background: white;
   border: 0.75rem #E6007E solid;
-  border-radius: 1.5rem;
+  border-radius: 0.8rem;
   margin: 2rem auto;
 }
 
 .carousel img {
   object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
+
+.carousel div div { transform: translateZ(0); }
 
 
 .content {
