@@ -9,42 +9,52 @@ header {
   color: white;
 }
 
-title {
+.title {
   width: 50%;
   margin: 0 auto;
+  padding: 3rem 0 4rem;
 }
 
 h1 {
   font-size: 5.5rem;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
-slogan {
+.slogan {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 85%;
+  margin: 0 auto;
   align-items: center;
 }
 
-slogan div {
+.slogan div {
   flex-grow: 1;
   height: 10px;
   border-radius: 100px;
   background: white;
 }
 
-slogan p {
+.slogan p {
   font-size: 3rem;
+  margin: 0 1rem;
 }
 
 h2 {
   font-size: 6rem;
   text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
 
 .explanation-and-donation {
   display: grid;
   grid-template-columns: 1fr 600px;
+  margin: 0 auto;
+  max-width: 1200px;
+  grid-gap: 2rem;
 }
 
 .donation {
@@ -52,3 +62,10 @@ h2 {
   width: 100%;
   height: 100rem;
 }
+
+.explanation {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 0;
+}
+
