@@ -10,43 +10,42 @@ header {
 }
 
 .title {
-  width: 50%;
   margin: 0 auto;
   padding: 3rem 0 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
-  font-size: 5.5rem;
+  font-size: 4.5rem;
   text-align: center;
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin: 0;
 }
 
 .slogan {
   display: flex;
   flex-direction: row;
-  width: 85%;
-  margin: 0 auto;
+  width: 34rem;
   align-items: center;
 }
 
 .slogan div {
   flex-grow: 1;
-  height: 10px;
+  height: 6px;
   border-radius: 100px;
   background: white;
 }
 
 .slogan p {
-  font-size: 3rem;
+  font-size: 2rem;
   margin: 0 1rem;
 }
 
 h2 {
   font-size: 6rem;
   text-align: center;
-  margin-top: 1rem;
-  margin-bottom: 0;
+  margin: -1rem 0 0;
 }
 
 .explanation-and-donation {
@@ -66,6 +65,8 @@ h2 {
 .explanation {
   font-size: 1.5rem;
   font-weight: bold;
-  margin-top: 0;
 }
 
+.explanation p {
+  margin-top: 0;
+}
