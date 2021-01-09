@@ -19,7 +19,7 @@ body {
 
 
 header {
-  background: radial-gradient(#E6007E 0%, #F29AC2 150%);
+  background: radial-gradient(at 50% 10rem, #E6007E 0%, #F29AC2 150%);
   color: white;
   margin-bottom: 15rem;
      position: relative;
@@ -100,12 +100,13 @@ h2 {
 .donation {
   position: relative;
   justify-self: center;
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
 }
 
 .donation iframe {
   border: none;
-  width: 600px;
+  width: 100%;
   height: 92rem;
   position: absolute;
   z-index: 3;
@@ -216,31 +217,44 @@ main {
   main {
     max-width: 95%;
   }
+  
+  .carousel {
+    height: 60vw;
+  }
 }
 
 
 
 
 @media (max-width: 760px) {
-  header {
-    margin-bottom: 20rem;
-    padding-bottom: 20rem;
-  }
-  
   .title h1 {
     font-size: 3rem;
   }
   
   .title .slogan {
-    width: 25rem;
+    width: 23rem;
   }
   
-  .summary-and-donation {
-    grid-template-columns: 1fr;
+  .title .slogan p {
+    font-size: 1.5rem;
   }
   
-  main {
-    max-width: 95%;
+  .title h2 {
+    font-size: 4rem;
+  }
+  
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 30rem;
+  }
+  
+  .stat img {
+    max-width: 8rem;
+  }
+  
+  .carousel {
+    border: none;
+    width: 100vw;
   }
 }
 
