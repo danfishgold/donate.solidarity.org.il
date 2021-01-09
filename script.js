@@ -4,7 +4,7 @@ const carousel = new Siema({
   easing: 'ease-out',
   perPage: 1,
   startIndex: 0,
-  draggable: false,
+  draggable: true,
   loop: true,
   rtl: true
 });

@@ -130,13 +130,23 @@ h2 {
   height: 4rem;
 }
 
+main {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  margin: 0 auto 10rem;
+}
+
+
 .stats {
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  grid-gap: 5rem;
+  grid-gap: 6rem;
 }
 
 .stat {
@@ -161,12 +171,13 @@ h2 {
 }
 
 .carousel {
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
   height: 600px;
   background: white;
   border: 0.75rem #E6007E solid;
   border-radius: 0.8rem;
-  margin: 2rem auto;
+  margin: 3rem 0;
 }
 
 .carousel img {
@@ -175,11 +186,13 @@ h2 {
   height: 100%;
 }
 
-.carousel div div { transform: translateZ(0); }
+/* https://github.com/pawelgrzybek/siema/issues/275 */
+.carousel div div {
+  transform: translateZ(0);
+}
 
 
 .content {
   max-width: 65ch;
   font-size: 1.5rem;
-  margin: 3rem auto 10rem;
 }
