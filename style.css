@@ -1,13 +1,23 @@
 /* @import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css); */
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
 
+
+/*
+
+Desktop: 980+
+Tablet: 760+
+
+
+*/
+
+
 body {
   font-family: "Heebo", "Open Sans Hebrew", sans-serif;
   margin: 0;
 }
 
 header {
-  background: #E6007E;
+  background: radial-gradient(#E6007E 0%, #F29AC2 150%);
   color: white;
   margin-bottom: 15rem;
      position: relative;
@@ -163,6 +173,6 @@ h2 {
 
 .content {
   max-width: 65ch;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin: 3rem auto 10rem;
 }
