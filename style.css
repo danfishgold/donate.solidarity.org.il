@@ -1,16 +1,7 @@
-/* @import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css); */
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap");
 
-/*
-
-Desktop: 980+
-Tablet: 760+
-
-
-*/
-
 body {
-  font-family: "Heebo", "Open Sans Hebrew", sans-serif;
+  font-family: "Heebo", sans-serif;
   margin: 0;
 }
 
