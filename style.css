@@ -1,10 +1,27 @@
 @import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
 
 body {
-  font-family: 'Open Sans Hebrew', sans-serif;;
+  font-family: "Open Sans Hebrew", sans-serif;
+}
+
+header {
+  background: #E6007E;
+  color: white;
 }
 
 h1 {
-  font-style: italic;
-  color: #373fff;
+  
+}
+
+slogan {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+slogan div {
+  flex-grow: 1;
+  height: 10px;
+  border-radius: 100%;
+  background: white;
 }
