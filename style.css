@@ -8,7 +8,7 @@ body {
 header {
   background: radial-gradient(at 50% 10rem, #E6007E 0%, #F29AC2 150%);
   color: white;
-  margin-bottom: 15rem;
+  margin-bottom: 5rem;
   position: relative;
   padding-bottom: 6rem;
 }
@@ -35,6 +35,15 @@ header::after {
   bottom: 0;
   clip-path: polygon(100% 0%, 100% 100%, 5% 100%);
 }
+
+
+.title-image {
+  padding: 3rem 0 4rem;
+  margin: 0 auto;
+  width: 60%;
+  display: block;
+}
+
 
 .title {
   margin: 0 auto;
@@ -210,6 +219,10 @@ main {
 @media (max-width: 760px) {
   header {
     margin-bottom: 23rem;
+  }
+  
+  .title-image {
+    width: 80%;
   }
 
   .title h1 {
